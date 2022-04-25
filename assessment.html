@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>htmlAssessment</title>
+
+</head>
+<body>
+  <h1>TEXT</h1>
+    <p><strong>Lorem ipsum dolor sit amet </strong>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <div>
+    <p>
+      <blockquote style="border:none">
+        <strong><em>At lectus urna duis convallis convallis tellus id.</em></strong> Molestie at elementum eu facilisis sed
+        odio morbi quis. Habitant morbi tristique senectus et netus et malesuada fames ac. Etiam sit amet nisl purus in mollis
+        nunc sed id. Scelerisque eleifend donec pretium vulputate sapien nec sagittis. Sollicitudin ac orci phasellus egestas
+        tellus. Tortor dignissim convallis aenean et tortor. Nunc mattis enim ut tellus elementum sagittis. Nisl tincidunt eget
+        nullam non nisi est sit. Amet luctus venenatis lectus magna fringilla urna porttitor. Sem fringilla ut morbi tincidunt
+        augue interdum.
+        </blockquote>
+        </p>
+      </div>
+      <div>
+      <p><strong>Donec massa sapien faucibus et molestie ac.</strong> Nullam eget felis eget nunc lobortis mattis aliquam faucibus. Sed tempus urna et pharetra pharetra massa. Eu facilisis sed odio morbi quis commodo odio aenean sed. Eget felis eget nunc lobortis mattis. Sem nulla pharetra diam sit amet nisl suscipit adipiscing bibendum. Eu scelerisque felis imperdiet proin fermentum leo vel. Ornare massa eget egestas purus viverra accumsan in nisl nisi. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Commodo sed egestas egestas fringilla phasellus faucibus. Urna et pharetra pharetra massa massa ultricies mi quis. Amet dictum sit amet justo. Blandit cursus risus at ultrices mi tempus imperdiet. Vel turpis nunc eget lorem dolor sed. Etiam sit amet nisl purus in mollis nunc sed id. Facilisis gravida neque convallis a. Tortor at risus viverra adipiscing. Diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Morbi tristique senectus et netus et malesuada. Arcu felis bibendum ut tristique et egestas quis ipsum suspendisse.
+      </p>
+    </div>
+<h1>TABLE</h1>
+<div>
+  <table bgcolor="black" width="500">
+    <tr bgcolor="blue">
+        <th  rowspan="2" width="100">Team Name </th>
+        <th colspan= "2" width="100">  First Half   </th>
+        <th colspan= "2" width="100"> Second Half </th>
+        <th rowspan="2" width="100"> Final </th>
+    </tr>
+    <tr bgcolor="blue" align="center">
+      <td>Q1</td>
+      <td>Q2</td>
+      <td>Q3</td>
+      <td>Q4</td>
+    </tr>
+    <tr bgcolor=" lightblue" align="center">
+      <td>Denver</td>
+      <td>7</td>
+      <td>3</td>
+      <td>0</td>
+      <td>7</td>
+      <td>17</td>
+    </tr>
+    <tr bgcolor=" lightblue"align="center">
+      <td>Chicago</td>
+        <td>0</td>
+        <td>6</td>
+        <td>3</td>
+        <td>6</td>
+        <td>15</td>
+    </tr>
+    <tr bgcolor=" lightblue"align="center">
+      <td>Total</td>
+        <td>7</td>
+        <td>9</td>
+        <td>3</td>
+        <td>13</td>
+        <td>32</td>
+    </tr>
+
+</table>
+</div>
+
+<h1>LIST</h1>
+  <div>
+    <p>
+      <img width = "300" height = "150"src=https://i.bleacherreport.net/images/team_logos/328x328/denver_broncos.png?canvas=492,328>
+      <br>
+      <a href="https://www.denverbroncos.com/">Denver Broncos</a>
+      <ul>
+    <li>Coach: Gary Kubiak</li>
+    <li>QB:</li>
+      <ul>
+    <li>Brock Osweiler</li>
+    <li>Peyton Manning (injured)</li>
+  </ul>
+  </ul>
+</p>
+
+<p>
+  <img  width = "250" height = "150" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Chicago_Bears_logo.svg/640px-Chicago_Bears_logo.svg.png">
+  <br>
+  <a href="https://www.chicagobears.com/">Chicago Bears</a>
+  <ul>
+<li>Coach: Gary Kubiak</li>
+<li>QB:</li>
+  <ul>
+<li>Jay Cutler</li>
+<li>David Foles</li>
+</ul>
+</ul>
+</p>
+</div>
+<h1>FORM</h1>
+<div>
+  <p>
+  <form action="collectData.html">
+    <label for="sportform">Complete the form:</label>
+    <br><br>
+  <label for="fname">First Name:
+    </label>
+  <input type="First Name"/>
+  <label for="lname">Last Name:
+    </label>
+  <input type="Last Name"/>
+  <br>
+  <label for="favorite-sport">Choose a favorite sport:
+  </label>
+  <input list="sports" id="favorite-sport" name="favorite-sport" />
+  <datalist id="sports">
+      <option value="Football">
+      <option value="Baseball">
+      <option value="BasketBall">
+  </datalist>
+<br>
+<section class="sportsplayed">
+         <span>What sports do you do you play?</span>
+<br>
+<input type="checkbox" id="football" name="sport" value="yes">
+  <label for="football">Football</label>
+  <input type="checkbox" id="baseball" name="sport" value="yes">
+  <label for="baseball">Baseball</label>
+  <input type="checkbox" id="basketball" name="sport" value="yes">
+  <label for="basketball">BasketBall</label>
+  <br>
+</section>
+
+  <section class="sportsleague">
+           <span>What league do you prefer?</span>
+
+  <br>
+  <input type="radio" id="no" name="League" value="no">
+    <label for="no">Amateur</label>
+    <input type="radio" id="no" name="League" value="no">
+    <label for="no">College</label>
+    <input type="radio" id="no" name="League" value="no">
+    <label for="no">Professional</label>
+      <br>
+  </section>
+
+  <input type="submit" value="Submit"/>
+</form>
+</p>
+</div>
+</body>
+</html>
